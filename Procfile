@@ -1,0 +1,1 @@
+web: cd backend && export FLASK_APP=server && flask init-db && gunicorn dispatcher:app --log-file -
